@@ -39,7 +39,7 @@ function runTimer(){
 
        else{
         clearInterval(timerinterval);
-        document.querySelector("#pbtm").innerHTML = `<h1>Game Over<h1/>`
+        document.querySelector("#pbtm").innerHTML = `<h1>Padhai Kar Lo<h1/>`
        }
     }, 1000);
 }
